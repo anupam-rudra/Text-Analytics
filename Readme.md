@@ -19,6 +19,11 @@ The pipeline includes:
 
 The dataset contains customer reviews of food products from Amazon.
 
+Dataset Link
+You can access it here:
+https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
+
+
 ### 🔑 Key Columns Used:
 
 | Column Name | Description |
