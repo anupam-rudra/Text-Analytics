@@ -155,7 +155,78 @@ A reusable function is created to:
 - Predict sentiment
 
 ### Example usage:
-```python
+python
 predict_sentiment("This product is great!", model, vectorizer)
 
+## 📉 Confusion Matrix
+
+A confusion matrix is used to visualize:
+
+- True Positives  
+- True Negatives  
+- False Positives  
+- False Negatives  
+
+This helps in understanding how well the model is performing beyond accuracy.
+
+---
+
+## ❌ Error Analysis
+
+We extract incorrectly classified reviews to:
+
+- Understand model weaknesses  
+- Identify ambiguous or misleading text  
+
+---
+
+## 📊 Confidence Score
+
+The model provides probability estimates for predictions.
+
+- Confidence score = highest predicted probability  
+- Helps measure how certain the model is  
+
+### Example:
+
+- Prediction: Positive  
+- Confidence: 0.92 → Highly confident  
+
+---
+
+## 🚀 Key Insights
+
+- TF-IDF is highly effective for text classification  
+- Logistic Regression performs strongly on this dataset  
+- Removing neutral reviews improves binary classification performance  
+- Error analysis reveals limitations in handling sarcasm and context  
+
+---
+
+## 🛠️ Technologies Used
+
+- Python  
+- Pandas, NumPy  
+- NLTK  
+- Scikit-learn  
+- Matplotlib, Seaborn  
+- WordCloud  
+
+---
+
+## 📌 Future Improvements
+
+- Use deep learning models (LSTM, BERT)  
+- Perform hyperparameter tuning  
+- Handle class imbalance  
+- Deploy as a web application (Streamlit)  
+
+---
+
+## 🙌 Conclusion
+
+This project demonstrates a complete NLP workflow from raw text to actionable insights.  
+It showcases how machine learning can effectively analyze customer sentiment and support decision-making.
+
+---
 
